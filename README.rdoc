@@ -1,0 +1,11 @@
+== DESCRIPTION
+
+The Android API provides TimePickerDialog class for time picking. The TimePickerDialog granulates time by one minute. However sometimes we need to be able to change time by some larger step (say, by a 15 minute chunks). This project solves this by introducing the CustomTimePickerDialog.
+
+=== Usage
+
+The usage is similar to TimePickerDialog, the only difference is that CustomTimePickerDialog's constructor accepts an additional parameter - a step to increment/decrement minutes.
+
+== EXAMPLES
+
+To see an example please launch the "Custom Time Picker Sample" application in Android device emulator.
